@@ -195,6 +195,10 @@ section.restaurant {
   aspect-ratio: 1 / 1;
 }
 
+.gallery {
+  margin-bottom: 30px;
+}
+
 .grid {
   display: grid;
 }
