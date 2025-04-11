@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #272044;
+  background: #222a63;
 }
 
 header {
@@ -9,7 +9,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  text-align: center;
   padding: 200px 0;
 }
 
@@ -39,8 +38,7 @@ header a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
-  text-align: center;
-  color: #272044;
+  color: #222a63;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
@@ -60,7 +58,7 @@ main h2 {
   line-height: 1.5;
   letter-spacing: 5px;
   margin: 0;
-  color: #272044;
+  color: #222a63;
   opacity: 30%;
   text-transform: uppercase;
 }
@@ -70,14 +68,14 @@ main h3 {
   font-size: 40px;
   line-height: 1.5;
   margin: 0;
-  color: #272044;
+  color: #222a63;
 }
 
 main h4 {
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
-  color: #272044;
+  color: #222a63;
   margin: 0;
 }
 
@@ -86,14 +84,14 @@ main h5 {
   font-size: 13px;
   margin: 0;
   line-height: 1;
-  color: #272044;
+  color: #222a63;
 }
 
 main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #272044;
+  color: #222a63;
   opacity: 0.7;
 }
 
@@ -106,8 +104,8 @@ img {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(32, 36, 68, 0.9),
+      rgba(32, 36, 68, 0.9)
     ),
     url("../images/footer-background.png");
 
@@ -164,7 +162,7 @@ section.restaurant {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #222a63;
   text-decoration: none;
 }
 
@@ -216,6 +214,10 @@ section.restaurant {
 .grid-cards {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 32px;
+}
+
+.hero {
+  text-align: center;
 }
 
 .text-center {
